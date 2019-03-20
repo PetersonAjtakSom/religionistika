@@ -1,4 +1,5 @@
 # Religionistika
-## Zatím jen křesťanství
+## Křesťanství a Judaismus
+
 
 
