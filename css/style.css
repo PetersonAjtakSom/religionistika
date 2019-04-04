@@ -43,8 +43,8 @@ h3 {
 }
 
 #krest h4{
-    background-color: rgb(118, 163, 33);
-    color: white;
+    background-color: rgb(120, 165, 32);
+    color: rgb(0, 0, 0);
     font-weight: 400;
     padding: 0.3em;
     font-size: 1.1em;
@@ -61,14 +61,63 @@ h3 {
 
 #hind h4{
     background-color: rgb(14, 141, 180);
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    padding: 0.3em;
+    font-size: 1.1em;
+}
+ 
+#islam h4{
+    background-color: rgb(202, 34, 12);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    padding: 0.3em;
+    font-size: 1.1em;
+}
+
+#budha h4{
+    background-color: rgb(9, 146, 94);
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    padding: 0.3em;
+    font-size: 1.1em;
+} 
+
+#sinto h4{
+    background-color: rgb(138, 50, 10);
     color: white;
     font-weight: 400;
     padding: 0.3em;
     font-size: 1.1em;
 }
 
+#sikh h4{
+    background-color: rgb(77, 9, 141);
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    padding: 0.3em;
+    font-size: 1.1em;
+}
+
+#baha h4{
+    background-color: rgb(226, 30, 72);
+    color: white;
+    font-weight: 400;
+    padding: 0.3em;
+    font-size: 1.1em;
+}
+
+#dzin h4{
+    background-color: rgb(181, 228, 13);
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    padding: 0.3em;
+    font-size: 1.1em;
+}
+
+
 #odkazy h4:hover {
-    background-color: rgb(214, 7, 7);
+    background-color: rgb(90, 7, 62);
 }
 
 #odkazy p {
