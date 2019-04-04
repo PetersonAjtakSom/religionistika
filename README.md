@@ -1,5 +1,5 @@
 # Religionistika
-## Křesťanství, Judaismus a Hinduismus
+## Křesťanství, Judaismus, Hinduismus, Islám, Buddhismus, Šintoismus, Sikhismus, Bahá'í a Džinismus.
 
 
 
