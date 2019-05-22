@@ -115,6 +115,12 @@ h3 {
     font-size: 1.1em;
 }
 
+h1{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    padding: 0.3em;
+    font-size: 3.5em;
+}
 
 #odkazy h4:hover {
     background-color: rgb(90, 7, 62);
@@ -122,4 +128,22 @@ h3 {
 
 #odkazy p {
     display: none;
+}
+
+#mapa {
+    background-image: url('../img/cerno.jpg');
+}
+
+#mapa p{
+    color: rgb(196, 171, 33);
+    font-weight: 400;
+    padding: 0.3em;
+    font-size: 1.6em;
+}
+
+#mapa h2{
+    color: rgb(211, 18, 18);
+    font-weight: 400;
+    padding: 0.3em;
+    font-size: 1.9em;
 }
