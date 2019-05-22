@@ -42,5 +42,15 @@ $(function(){
      });
 });
 
+$(function(){
+  $('h1').text('Náboženství na kontinentech');
+  $('.objekt').attr({'style':'fill:rgba(0,0,0,0);'});
 
-
+  $('.objekt').on('click',function(){
+      $('.objekt').attr({'style':'fill:rgba(150,100,0,0);'});
+      $(this).attr({'style':'fill:rgba(250,90,60,0.7);stroke:black'});
+      $('#text h2').text($(this).data('nazev'));
+      $('#text p').text($(this).data('popis'));
+      $('#text figcaption').text($(this).data('nazev'));
+  })
+})
