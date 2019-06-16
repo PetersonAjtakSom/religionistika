@@ -507,7 +507,76 @@
                 </figure> 
             </div>
         </div>
-            <br>
+            <br> <br> <br>
+
+            <h2 id="sekta" class="text-center">Vytvořte si vlastní sektu/náboženství</h2>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Název</th>
+                  <th>Počet členů</th>
+                  <th>Rok založení</th>
+                  <th>Akce</th>
+                </tr>
+              </thead>
+              <tbody id="list">
+              </tbody>
+            </table>
+            <!-- Modal dialog -->
+            <!-- Button trigger modal -->
+            <button type="button" id="create" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
+              Přidat
+            </button>
+          
+            <!-- Modal -->
+            <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Přidání sekty/náboženství</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container">
+                      <form>
+                        <div class="form-group row"  style="display:none">
+                          <label for="id" class="col-sm-3 col-form-label">ID</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" name="id" id="id">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="name" class="col-sm-3 col-form-label">Název</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" name="name" id="name">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="count" class="col-sm-3 col-form-label">Počet členů</label>
+                          <div class="col-sm-9">
+                            <input type="number" class="form-control" name="count" id="count">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="year" class="col-sm-3 col-form-label">Rok založení</label>
+                            <div class="col-sm-9">
+                              <input type="number" class="form-control" name="year" id="year">
+                            </div>
+                          </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zrušit</button>
+                    <button type="button" class="btn btn-primary" id="submit" data-dismiss="modal">Uložit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br> <br>
     </main>
     <footer class="p-5">
         <div class="container">
@@ -540,6 +609,7 @@
         crossorigin="anonymous"></script>
     <script src="js/data.js"></script>    
     <script src="js/main.js"></script>    
+
 </body>
 
 </html>
